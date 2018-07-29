@@ -2,7 +2,6 @@ from pyquil import *
 import init
 import qpuroot
 import qpustandard
-import interface
 
 def os():
     runroot = True
