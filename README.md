@@ -1,3 +1,3 @@
 # qucoke
 A Quantum Kernel/OS. IS VERY ROUGH
-Written in rigettie pyquil
+Written in rigetti pyquil
