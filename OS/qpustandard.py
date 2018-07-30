@@ -1,4 +1,4 @@
-from qiskit import *import qpuos
+from pyquil import *
 import qpuos
 import qpuroot
 import init
