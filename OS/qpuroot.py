@@ -1,4 +1,2 @@
-from pyquil import *
-import init
+import pyquil
 import qpustandard
-import qpuos
