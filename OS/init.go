@@ -33,6 +33,5 @@ func output(){
 		fmt.Println(err)
 	}
 	str := string(o)
-
 	fmt.Println(str)
 }
