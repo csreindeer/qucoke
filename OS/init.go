@@ -5,6 +5,7 @@ import (
 	"os/exec"
 )
 
+//I am going to add input here, but for testing purposes I have not
 func main(){
 	var rpass = "root"
 	var password ="root"
@@ -15,10 +16,12 @@ func main(){
 	}
 }
 
+//will read qpuroot.py, via a sh work around
 func root(){
 	//working on it
 }
 
+//will read qpu standard.py
 func standard(){
 	//run qpustandard
 }
