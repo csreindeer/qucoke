@@ -1,1 +1,1 @@
-python3 /home/mymainman/bigboy/qucoke/OS/qpuroot.py
+python3 /home/mymainman/bigboy/qucoke/OS/priority.py
