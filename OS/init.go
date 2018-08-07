@@ -10,7 +10,8 @@ import (
 //will create a for loop as an "engine"
 	func main() {
 		i := 1
-		for i < 2 {
+		t := 3
+		for i < t {
 			root()
 			output()
 			i++
