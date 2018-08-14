@@ -9,3 +9,4 @@ I am a hobby computer scientist. I started i, 4th grade. Fast forward to now I h
 
 ## Discord server to discuss me on
 https://discord.gg/tVyBHAU
+# Okay but really this is a hobby project, dont use this or take it way too seriously, but contributions will always be viewed as helpful
