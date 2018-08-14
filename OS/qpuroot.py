@@ -1,13 +1,13 @@
 from pyquil.quil import Program
 from pyquil.api import QVMConnection
-from pyquil.gates import CNOT, H
+from pyquil.gates import CNOT, H, X
 
 # each application will have its own method
-def test():
-    #yes for right now I am using the bell state example on the docs
-    qvm = QVMConnection()
-    p = Program(H(0), CNOT(0, 1))
+#bell stae is gonna be defualt position
 
+def test():
+    qvm = QVMConnection()
+    p = Program(X(1), H(0), CNOT(0, 1))
     wf = qvm.wavefunction(p)
     wfo = str(wf)
 

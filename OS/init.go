@@ -10,21 +10,20 @@ import (
 //will create a for loop as an "engine"
 	func main() {
 		i := 1
-		t := 3
+		t := 2
 		for i < t {
 			initos()
 			readoutput()
 			i++
 		}
 	}
-
-//will read qpuroot.py, via a sh work around
+	
 func initos() {
 	exec.Command("/bin/sh", "OSrunner.sh").Run()
 }
 func readoutput() {
 	o, err := ioutil.ReadFile("output.txt")
-	
+
 	if err != nil {
 		fmt.Println(err)
 	}
