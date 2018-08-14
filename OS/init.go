@@ -20,7 +20,7 @@ import (
 
 //will read qpuroot.py, via a sh work around
 func root() {
-	exec.Command("/bin/sh", "/home/mymainman/bigboy/qucoke/OS/rworkaround.sh").Run()
+	exec.Command("/bin/sh", "rworkaround.sh").Run()
 }
 
 //will read qpu standard.py
