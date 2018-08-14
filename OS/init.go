@@ -12,22 +12,22 @@ import (
 		i := 1
 		t := 3
 		for i < t {
-			root()
-			output()
+			initos()
+			readoutput()
 			i++
 		}
 	}
 
 //will read qpuroot.py, via a sh work around
-func root() {
-	exec.Command("/bin/sh", "rworkaround.sh").Run()
+func initos() {
+	exec.Command("/bin/sh", "OSrunner.sh").Run()
 }
 
 //will read qpu standard.py
 func standard() {
 	//run qpustandard
 }
-func output() {
+func readoutput() {
 	o, err := ioutil.ReadFile("output.txt")
 	if err != nil {
 		fmt.Println(err)
