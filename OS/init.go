@@ -22,13 +22,9 @@ import (
 func initos() {
 	exec.Command("/bin/sh", "OSrunner.sh").Run()
 }
-
-//will read qpu standard.py
-func standard() {
-	//run qpustandard
-}
 func readoutput() {
 	o, err := ioutil.ReadFile("output.txt")
+	
 	if err != nil {
 		fmt.Println(err)
 	}
