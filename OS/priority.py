@@ -4,5 +4,5 @@ import qpuroot
 #from pyquil.gates import CNOT, H
 
 #iffy for rn, will be used for resource management
-qpuroot.test()
+qpuroot.main()
 #qupustandard.it is not ready yet
