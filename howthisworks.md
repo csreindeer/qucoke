@@ -4,6 +4,7 @@
  priority.py will soon have the ability to do resource management
  qpuroot.py runs root commands on qubits
  qpustandard.py runs standard commands on qubits
- clc has one qubits, runs different programs, much like bash
+ clc has one qubit, runs different programs, much like bash
  will allow for abstraction
- 
+
+ This is co cpu/qpu, I hope to move this to only qpu sometime in the distant future
