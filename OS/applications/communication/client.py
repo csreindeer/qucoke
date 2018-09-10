@@ -30,3 +30,4 @@ def communication():
     x = 
     y = 
     z =  
+    space =
