@@ -3,7 +3,7 @@ from pyquil.api import QVMConnection
 from pyquil.gates import CNOT, H, X
 
 # each application will have its own method
-#bell stae is gonna be defualt position
+#bell state is gonna be defualt position
 
 #init the computerish?
 p = Program()
@@ -19,6 +19,10 @@ def test():
     wf = qvm.wavefunction(p)
     wfo = str(wf)
 
+#def load():
+    #will be able to load different programs
+    
+    
     #writes to output
     o = open ("output.txt", "a")
     o.write(wfo)
