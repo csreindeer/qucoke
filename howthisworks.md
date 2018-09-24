@@ -8,3 +8,5 @@
  will allow for abstraction
 
  This is co cpu/qpu, I hope to move this to only qpu sometime in the distant future
+
+ A Way to contribute is by making programs for basic task and a front end for them. 
